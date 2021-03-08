@@ -1,0 +1,27 @@
+%YAML:1.0
+
+image_topic: "/kitti/camera_gray_left/image_raw"
+image_width: 1241
+image_height: 376
+
+projection_parameters:
+  fx: 9.799200e+02
+  fy: 6.900000e+02
+  cx: 9.741183e+02
+  cy: 2.486443e+02
+
+max_cnt: 300            # max feature number in feature tracking, will be 200 - 250, which with depth will be 30 - 40
+min_dist: 30            # min distance between two features 
+freq: 10                # frequence (Hz) of publish tracking result. At least 10Hz for good estimation. If set 0, the frequence will be same as raw image 
+F_threshold: 1.0        # ransac threshold (pixel)
+show_track: 1           # publish tracking image as topic
+
+point_cloud_topic: "/kitti/velo/pointcloud"
+velocity_topic: "/kitti/oxts/gps/vel"
+
+cov_pixel: 25.0 #深度关联重投影像素协方差
+cov_pts : 1.0 #深度关联过程中，三个深度点的协方差
+
+max_num_iterations: 8
+max_solver_time: 0.1
+init_depth: 10.0

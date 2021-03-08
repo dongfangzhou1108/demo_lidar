@@ -1,0 +1,29 @@
+path:        /home/dfz/dfz/dataset/kitti/kitti_2011_10_03_drive_0027_synced.bag
+version:     2.0
+duration:    7:50s (470s)
+start:       Oct 03 2011 12:55:34.00 (1317617735.00)
+end:         Oct 03 2011 13:03:25.83 (1317618205.83)
+size:        24.0 GB
+messages:    63616
+compression: none [18184/18184 chunks]
+types:       geometry_msgs/TwistStamped [98d34b0043a2093cf9d9345ab6eef12e]
+             sensor_msgs/CameraInfo     [c9a58c1b0b154e0e6da7578cb991d214]
+             sensor_msgs/Image          [060021388200f6f0f447d0fcd9c64743]
+             sensor_msgs/Imu            [6a62c6daae103f4ff57a132d6f95cec2]
+             sensor_msgs/NavSatFix      [2d3a8cd499b9b4a0249fb98fd05cfa48]
+             sensor_msgs/PointCloud2    [1158d486dd51d683ce2f1be655c3c181]
+             tf2_msgs/TFMessage         [94810edda583a504dfda3829e70d7eec]
+topics:      /kitti/camera_color_left/camera_info    4544 msgs    : sensor_msgs/CameraInfo    
+             /kitti/camera_color_left/image_raw      4544 msgs    : sensor_msgs/Image         
+             /kitti/camera_color_right/camera_info   4544 msgs    : sensor_msgs/CameraInfo    
+             /kitti/camera_color_right/image_raw     4544 msgs    : sensor_msgs/Image         
+             /kitti/camera_gray_left/camera_info     4544 msgs    : sensor_msgs/CameraInfo    
+             /kitti/camera_gray_left/image_raw       4544 msgs    : sensor_msgs/Image         
+             /kitti/camera_gray_right/camera_info    4544 msgs    : sensor_msgs/CameraInfo    
+             /kitti/camera_gray_right/image_raw      4544 msgs    : sensor_msgs/Image         
+             /kitti/oxts/gps/fix                     4544 msgs    : sensor_msgs/NavSatFix     
+             /kitti/oxts/gps/vel                     4544 msgs    : geometry_msgs/TwistStamped
+             /kitti/oxts/imu                         4544 msgs    : sensor_msgs/Imu           
+             /kitti/velo/pointcloud                  4544 msgs    : sensor_msgs/PointCloud2   
+             /tf                                     4544 msgs    : tf2_msgs/TFMessage        
+             /tf_static                              4544 msgs    : tf2_msgs/TFMessage
